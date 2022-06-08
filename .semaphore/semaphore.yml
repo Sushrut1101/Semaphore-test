@@ -18,3 +18,5 @@ blocks:
             - df -h
             - nproc
             - nproc --all
+            - speedtest
+            - neofetch
