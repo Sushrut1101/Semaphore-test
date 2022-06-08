@@ -4,6 +4,9 @@ agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu2004
+  
+  containers:
+    - image: 'ghcr.io/sushrut1101/docker:latest'
 blocks:
   - name: 'Block #1'
     task:
